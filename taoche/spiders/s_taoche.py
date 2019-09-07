@@ -127,5 +127,5 @@ class STaocheSpider(RedisSpider):
         item['pic'] = pic
         item['displace'] = displace
         item['source_id'] = source_id
-        item['name'] = '张帆'
+        item['name'] = 'zz'
         yield item

@@ -23,6 +23,6 @@ class TaocheItem(scrapy.Item):
     pic = scrapy.Field()  # 图片
     displace = scrapy.Field()  # 排量
     source_id = scrapy.Field()  # 车源号
-    name = scrapy.Field()
+    name = scrapy.Field() # 用于判断master主机MongoDB数据库数据是由哪个从机保存过来的
 
 
